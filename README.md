@@ -6,12 +6,53 @@
 
 React 19 · TypeScript · Vite · Express · Tailwind CSS · Google Gemini · PostgreSQL · Firebase
 
-[📖 Overview](#-overview) · [✨ Features](#-features) · [🖼️ Product Tour](#️-product-tour) · [🔬 Methodology](#-methodology) · [🏗️ Architecture](#️-architecture) · [🚀 Getting Started](#-getting-started) · [📡 API](#-api-reference) · [🔒 Security](#-security) · [🧭 Roadmap](#-roadmap)
+[🏆 Submission](#-submission-details) · [👥 Team](#-team-code-alchemists) · [📖 Overview](#-overview) · [✨ Features](#-features) · [🖼️ Product Tour](#️-product-tour) · [🔬 Methodology](#-methodology) · [🏗️ Architecture](#️-architecture) · [🚀 Getting Started](#-getting-started) · [📡 API](#-api-reference) · [🔒 Security](#-security) · [🧭 Roadmap](#-roadmap) · [🤖 AI Disclosure](#-ai-tools-models-apis-and-open-source-disclosure)
 
 
-<img src="docs/screenshots/03-dashboard.png" alt="LearnPath AI dashboard" width="90%" />
+<img src="https://github.com/user-attachments/assets/cb04d602-3038-4cb8-aa5d-43ff5754fb6c" alt="LearnPath AI dashboard" width="90%" />
 
 </div>
+
+---
+
+## 🏆 Submission Details
+
+| | |
+|---|---|
+| **Project name** | LearnPath AI: Adaptive Python Learning |
+| **Team name** | Code Alchemists |
+| **Selected problem** | `[Adaptive Learning Path Generator]` |
+| **Category** | `[EDUCATION]` |
+| **Repository** | https://github.com/soomroabdulwasiu-blip/LearnPathAI---CodeAlchemists |
+
+## 👥 Team Code Alchemists
+
+| # | Member | GitHub |
+|:-:|---|---|
+| 1 | Abdul Wasiu | [@soomroabdulwasiu-blip](https://github.com/soomroabdulwasiu-blip) |
+| 2 | Muhammad Farhan | [@K25SW01](https://github.com/K25SW01) |
+| 3 | Engineer Jatoi | [@zaminjatoi4050-crypto](https://github.com/zaminjatoi4050-crypto) |
+
+## 🎯 Problem Statement and Solution
+
+### ❗ The Problem
+
+Most Python courses give every learner the same fixed sequence of lessons. Beginners who already know a topic waste time, while those who are struggling move on before they understand the basics. Learners and instructors also have no reliable, quantitative view of what a student actually knows, and many learners need support in a language other than English.
+
+### 💡 Our Solution
+
+LearnPath AI measures each learner's knowledge and builds the study path around it:
+
+- A short **diagnostic assessment** estimates starting mastery for ten core Python topics.
+- **Bayesian Knowledge Tracing** updates that estimate after every practice answer.
+- A **prerequisite graph** keeps the roadmap in a logical order: a topic stays locked until its foundations reach 50%, and mastered topics (85% and above) are skipped.
+- An **AI tutor, Code Lab, and spaced review** help learners practice and fix weak areas.
+- **Instructor heatmaps** and an **admin console** give teachers and administrators a clear view of progress.
+- The interface is fully available in **English and Urdu**.
+
+### 🧱 Technologies and Key Features
+
+Technologies are listed in the [Technology Stack](#-technology-stack) and the features in [Features](#-features) and the [Product Tour](#️-product-tour) below.
 
 ---
 
@@ -91,63 +132,63 @@ A walkthrough of the main screens, in the order a learner typically encounters t
 
 Sign in with email and password or Google. New accounts are verified with a one-time passcode.
 
-![Sign in](docs/screenshots/01-sign-in.png)
+![Sign in](https://github.com/user-attachments/assets/f9c0166a-f7f1-4978-9bb1-2c268c318cde)
 
 Password recovery sends a six-digit verification code by email. The Gmail Sender Settings shortcut lets administrators configure the delivery account without editing environment files.
 
-![Reset password](docs/screenshots/02-reset-password.png)
+![Reset password](https://github.com/user-attachments/assets/30a40d20-37db-497a-844b-c34b094d6396)
 
 ### 2. 📊 Dashboard
 
 The overview page summarizes learning progress, skills mastered, study streak, and average quiz score, and recommends the next best step based on the current knowledge model.
 
-![Dashboard](docs/screenshots/03-dashboard.png)
+![Dashboard](https://github.com/user-attachments/assets/cb04d602-3038-4cb8-aa5d-43ff5754fb6c)
 
 ### 3. 📝 Diagnostic Assessment
 
 A placement assessment seeds the initial mastery estimate for each topic. Questions can include code snippets and are available in English and Urdu.
 
-![Diagnostic assessment](docs/screenshots/04-diagnostic.png)
+![Diagnostic assessment](https://github.com/user-attachments/assets/10ecc6f2-bde7-4d9f-bdeb-6c9a7c330d75)
 
 ### 4. 🎯 Practice Center
 
 Adaptive question sets target weak concepts. Each answer updates the Bayesian mastery estimate, and the progress ring shows the current score for the active topic.
 
-![Practice Center](docs/screenshots/05-practice-center.png)
+![Practice Center](https://github.com/user-attachments/assets/cb5af44b-fae1-456f-861a-b06e7164ace3)
 
 ### 5. 💬 AI Tutor
 
 A context-aware tutor opens beside the current question. It knows which question is active and offers suggested prompts. When no Gemini key is configured, the local Socratic engine responds instead.
 
-![AI Tutor](docs/screenshots/06-ai-tutor.png)
+![AI Tutor](https://github.com/user-attachments/assets/5dd772ad-ab97-4706-94bb-77a3f59a4795)
 
 ### 6. 💻 Code Lab
 
 An interactive editor runs Python against optional test cases, with standard input support, a reset control, and an "Explain with AI" action. Guided challenges sit alongside a free playground.
 
-![Code Lab](docs/screenshots/07-code-lab.png)
+![Code Lab](https://github.com/user-attachments/assets/9c56b850-bf27-458b-ab36-38cf2d398165)
 
 ### 7. 📈 Progress and Analytics
 
 Overall competency, topic mastery rate, study streak, assessment score history, and daily study distribution are tracked over time.
 
-![Progress and analytics](docs/screenshots/08-progress-analytics.png)
+![Progress and analytics](https://github.com/user-attachments/assets/1ee7acc1-9127-42b3-91e8-4c4e71405612)
 
 ### 8. 👩‍🏫 Instructor Portal
 
 Instructors create class cohorts that generate join codes for student registration and monitor competency through class heatmaps.
 
-![Instructor classes](docs/screenshots/09-instructor-classes.png)
+![Instructor classes](https://github.com/user-attachments/assets/1e4b0c35-3ac1-4bb2-91c5-542153566d0e)
 
 The Content Manager lets instructors browse, filter, add, and remove questions by topic and difficulty.
 
-![Content Manager](docs/screenshots/10-content-manager.png)
+![Content Manager](https://github.com/user-attachments/assets/176fb91c-abf7-4201-93fe-ce5be9aeed9a)
 
 ### 9. 🛡️ Administration
 
 Administrators manage users, the question bank, classes, quiz attempts, and topic mastery from a single console, with live database connection status.
 
-![Admin data management](docs/screenshots/11-admin-panel.png)
+![Admin data management](https://github.com/user-attachments/assets/7ee5af04-4349-4a7e-bb51-29d9275d35a0)
 
 ---
 
@@ -272,7 +313,6 @@ An `AIProvider` interface is implemented by `GeminiProvider` and `DeterministicF
 ├── server.ts                  Express entry point (API and Vite middleware)
 ├── index.html                 Application shell and metadata
 ├── vite.config.ts             Vite, React, and Tailwind configuration
-├── docs/screenshots/          Product screenshots used in this README
 ├── .env.example               Environment variable template
 └── src/
     ├── App.tsx                Routing and protected-route guards
@@ -313,8 +353,8 @@ An `AIProvider` interface is implemented by `GeminiProvider` and `DeterministicF
 ### 📦 Installation
 
 ```bash
-git clone https://github.com/<your-username>/learnpath-ai.git
-cd learnpath-ai
+git clone https://github.com/<your-username>/LearnPathAI---CodeAlchemists.git
+cd LearnPathAI---CodeAlchemists
 npm install
 cp .env.example .env
 ```
@@ -475,6 +515,68 @@ The interface, topic titles and descriptions, quiz questions, explanations, and 
 - [ ] Automated test suite and continuous integration
 - [ ] Dockerfile and cloud deployment guide
 - [ ] Badges, leaderboards, and class challenges
+
+---
+
+## 🧗 Challenges and Learnings
+
+### Challenges
+
+- **Making the adaptive model trustworthy.** Implementing BKT correctly, keeping scores in a sensible range, and turning them into topic statuses and a roadmap required careful tuning of guess, slip, and learning parameters.
+- **Reliable AI output.** Language models can return malformed or unsafe content. We added a validator that checks and normalizes generated questions, plus a deterministic fallback so the app still works with no API key or when the model is slow.
+- **Secure authentication.** Building email verification with one-time passcodes meant handling expiry, attempt limits, account lockouts, and delivery through Gmail.
+- **Running user code safely.** The Code Lab needed timeouts, output limits, and a stripped-down environment to reduce the risk of running untrusted Python.
+- **Bilingual content.** Supporting Urdu meant translating questions, explanations, and roadmap rationales, not just interface labels.
+
+### Learnings
+
+- Practical use of probabilistic student modeling in a real product
+- Designing an AI provider abstraction with a graceful fallback
+- Full-stack TypeScript development with React, Express, and PostgreSQL
+- Security fundamentals for authentication and code execution
+- Working as a team on a shared repository
+
+---
+
+## 🤖 AI Tools, Models, APIs, and Open-Source Disclosure
+
+### AI Models and APIs
+
+| Tool | How it is used |
+|---|---|
+| **Google Gemini API** (`@google/genai`) | Runtime AI features: tutor, weak-topic analysis, question generation, mistake explanation, study plans, and code explanation. The model name is configurable with `GEMINI_MODEL`. |
+| **Deterministic fallback engine** | Rule-based replacement written by the team, used when no Gemini key is configured |
+
+### AI-Assisted Development
+
+| Tool | How it was used |
+|---|---|
+| **Google AI Studio (Build)** | The project was created as an AI Studio applet, as shown by its original README and `metadata.json`. |
+| **Claude (Anthropic)** | Helped draft and structure this README. |
+| `[FILL IN]` | Add any other AI assistants the team used (for example ChatGPT or GitHub Copilot) and what for. |
+
+### External Services
+
+| Service | Purpose |
+|---|---|
+| Firebase Authentication | Google and Firebase sign-in |
+| Gmail SMTP through Nodemailer | One-time passcode emails |
+| PostgreSQL (Cloud SQL) | Data persistence |
+| Google Fonts | Outfit, Plus Jakarta Sans, and JetBrains Mono typefaces |
+
+### Open-Source Libraries
+
+React, React Router, Vite, Express, Tailwind CSS, Zustand, Drizzle ORM, node-postgres (`pg`), Nodemailer, Firebase SDK and Admin SDK, Recharts, @xyflow/react, Motion, Lucide React, Sonner, canvas-confetti, dotenv, clsx, tailwind-merge, tsx, and TypeScript. Each is used under its own license; see `package.json` for exact versions.
+
+### Algorithms and Research
+
+Bayesian Knowledge Tracing is a published student-modeling technique (Corbett and Anderson, 1995). The implementation in `src/server/engine/bkt.ts` was written for this project.
+
+---
+
+## 🔗 Repository
+
+**Main project repository:** https://github.com/`<owner-username>`/LearnPathAI---CodeAlchemists
 
 ---
 
