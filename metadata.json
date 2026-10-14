@@ -1,0 +1,6 @@
+{
+  "name": "LearnPath AI - Adaptive Python Learning",
+  "description": "Personalized learning and adaptive path generator for Python programming with real Gmail OTP verification, Bayesian knowledge tracing, and dynamic prerequisite DAG roadmaps.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
